@@ -51,6 +51,8 @@ class VagonDeCarga{
 	method mantenimiento(){
 		maderasSueltas = 0.max(maderasSueltas - 2)
 	}
+	
+	method esDePasajeros()= false
 }
 
 class VagonDormitorio{
@@ -72,6 +74,8 @@ class VagonDormitorio{
 	method mantenimiento(){
 
 	}
+	
+	method esDePasajeros()= false
 	
 }
 
